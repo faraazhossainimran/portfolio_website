@@ -1,6 +1,3 @@
- /* --------------------------------------------------
-  * © Copyright 2018 - Profession by Designesia
-  * --------------------------------------------------*/
 (function($) {
 	'use strict';
 
@@ -124,7 +121,6 @@
                      return openerElement.is('img') ? openerElement : openerElement.find('img');
                  }
              }
-
          });
          $('.image-popup-vertical-fit').magnificPopup({
              type: 'image',
@@ -180,7 +176,6 @@
                  }
              });
          });
-
          $('.images-popup').magnificPopup({
              delegate: 'a', // child items selector, by clicking on it popup will open
              type: 'image'

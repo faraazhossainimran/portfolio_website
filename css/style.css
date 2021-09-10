@@ -1,8 +1,5 @@
 /* ================================================== */
-
-
-/* Profession
-/* created by designesia
+/* 
 
 * body
 * header
@@ -99,8 +96,11 @@ body.boxed {
 	overflow: hidden;
 	border:solid 1px #eee;
 }
+body{
+	background: #1b1f24 !important;
+}
 body.de_light {
-	color: #555;
+	color: #ccc;
 }
 #wrapper {
 	overflow: hidden;
@@ -108,7 +108,47 @@ body.de_light {
 .de-navbar-left #wrapper {
 	overflow: visible;
 }
-
+p{
+	font-size: 18px;
+	line-height: 2.9rem;
+}
+#section-portfolio{
+	background: #1b1f24;
+}
+.logo_text{
+	font-size: 32px;
+	padding: 5px;
+	color: #eceff3 !important;
+}
+.author-img{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background: url(../images/people/1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative; 
+	border-radius: 50%;
+}
+#section-about{
+	background: #1b1f24;
+}
+#section-hero{
+	background: #1b1f24;
+}
+@media(max-width:1200px) {
+	.author-img{
+		display: none;
+	}
+	.logo_text{
+		display: none;
+	}
+}
+.text_left li {
+	text-align: left;
+}
 /* ================================================== */
 
 
@@ -284,7 +324,8 @@ header.smaller.scroll-light div#logo .logo-scroll {
 	display: inline-block;
 }
 header.smaller.scroll-light #mainmenu a, header.header-mobile.header-light #mainmenu a {
-	color: #333;
+	color: rgb(129, 136, 145);
+	font-size: 18px;
 }
 header.smaller.scroll-light #mainmenu li li a {
 	color: #fff;
@@ -477,9 +518,10 @@ header.de_header_2.smaller .info {
 	padding: 25px 15px 25px 15px;
 	line-height: 35px;
 	text-decoration: none;
-	color: #fff;
+	color: rgb(129, 136, 145);
 	text-align: center;
 	outline: none;
+	font-size: 18px;
 }
 #mainmenu a span{
 	height:2px;
@@ -655,7 +697,9 @@ header.header-mobile.header-light #menu-btn {
 
 
 /* ================================================== */
-
+#section-testimonial{
+	background: #1b1f24;
+}
 #content {
 	width: 100%;
 	background: #fff;
@@ -682,9 +726,9 @@ section {
 	overflow: hidden;
 	position: relative;
 }
-section {
+/* section {
 	background: #18191b;
-}
+} */
 section.no-bg, #content.no-bg{
 	background:none !important;
 }
@@ -694,9 +738,9 @@ section.no-bg, #content.no-bg{
 .de-navbar-left section {
 	padding: 70px;
 }
-.de_light section {
+/* .de_light section {
 	background: #ffffff;
-}
+} */
 .section-fixed {
 	position: fixed;
 	width: 100%;
@@ -828,7 +872,7 @@ header.header-mobile {
 	position:absolute !important;
 	top:0;
 	height: 70px;
-	background:#fff;
+	background:#2d333b;
 }
 header.header-mobile nav{
 	float:none;
@@ -1754,16 +1798,17 @@ a.btn-text-light {
 	left: 20px;
 }
 a.btn-custom, .btn-custom, a.btn-slider, .btn-slider {
-	font-family: "Open Sans";
+	/* font-family: "Open Sans"; */
 	font-size: 12px;
 	min-width: 120px;
 }
 a.btn-custom, .btn-custom {
-	background: #eee;
+	background: #373e47;
 	color: #fff;
 	border-radius: 3px;
-	padding: 15px 30px 15px 30px;
+	padding: 15px 20px 15px 20px;
 	min-width: 120px;
+	margin: 8px;
 }
 a.btn-border {
 	border: solid 2px rgba(255, 255, 255, 1);
@@ -2258,7 +2303,7 @@ h2.hs1 span {
 	font-weight: normal;
 }
 h2 .de_light .text-light h2 {
-	color: #fff;
+	color: #818891;
 }
 .text-light h2.deco span:before, .text-light h2.deco span:after {
 	border-top: 1px solid rgba(255, 255, 255, .5);
@@ -2335,23 +2380,27 @@ span.teaser {
 .text-light {
 	color: #999;
 }
+.de_light .text-white h5{
+	color: #818891;
+	font-size: 20px;
+}
 .text-white,.de_light .text-white {
+	color: #818891;
+}
+.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h6 {
 	color: #fff;
 }
-.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 {
-	color: #fff;
-}
-.de_light .text-light h1, .de_light .text-light h2, .de_light .text-light h3, .de_light .text-light h4, .de_light .text-light h5, .de_light .text-light h6 {
+.de_light .text-light h1, .de_light .text-light h3, .de_light .text-light h4,.de_light .text-light h6 {
 	color: #fff;
 }
 .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
 	color: #fff;
 }
-.de_light .text-white h1, .de_light .text-white h2, .de_light .text-white h3, .de_light .text-white h4, .de_light .text-white h5, .de_light .text-white h6 {
+.de_light .text-white h1, .de_light .text-white h2, .de_light .text-white h3, .de_light .text-white h4, .de_light .text-white h6 {
 	color: #fff;
 }
 .de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6 {
-	color: #333;
+	color: #818891;
 }
 
 /* feature box style 1 */
@@ -3116,8 +3165,8 @@ span.teaser {
 	border-radius:10px;
 }
 .de-progress .progress-bar {
-	background: #333;
-	height: 4px;
+	background: #ccc;
+	height: 6px;
 	box-shadow: none;
 	border-radius:10px;
 }
@@ -3895,9 +3944,9 @@ a.btn-left, a.btn-right {
 	padding-top: 20px;
 }
 .de_testi.opt-2 blockquote {
-	background:none;
+	background:rgba(255, 255, 255, 0.1);
 	border:solid 1px rgba(0,0,0,.1);
-	color: #333;
+	color: #eceff3;
 	font-weight:300;
 	margin-top:20px;
 	padding:40px;
@@ -5281,7 +5330,7 @@ footer .widget_list li a {
 .side-layout header{
 	width:20%;
 	height:100%;
-	background:#222;
+	background:#22272e !important;
 	position:fixed;
 	padding:30px;
 	top:0;
@@ -5334,7 +5383,7 @@ footer .widget_list li a {
 }
 
 .side-layout header.smaller{
-	border-right:solid 1px #f6f6f6;
+	border-right:solid 1px #444c56;
 }
 
 .side-layout header.header-dark.smaller{
@@ -5911,10 +5960,14 @@ p.intro {
 	width: 100%;
 	height: 100%;
 	z-index: 100;
-	background: rgba(20, 20, 20, .6);
+	/* background: rgba(20, 20, 20, .6); */
 	top: 0;
 	padding:100px 0 100px 0;
+	background: #1b1f24;
 }
+/* .bg_custom{
+background: #1b1f24;
+} */
 .overlay-gradient {
 	width: 100%;
 	height: 100%;
@@ -5927,9 +5980,9 @@ p.intro {
 	z-index: 100;
 	top: 0;
 }
-.overlay-bg.t30{
+/* .overlay-bg.t30{
 	background: rgba(20, 20, 20, .3);
-}
+} */
 .overlay-bg.t40{
 	background: rgba(20, 20, 20, .4);
 }
@@ -6016,7 +6069,7 @@ i.btn-action-hide {
 	height: 32px;
 	text-align: center;
 	line-height: 30px;
-	background: #f6f6f6;
+	background: #87bdc5;
 	cursor: pointer;
 	border: 0;
 	border-radius: 2px;
@@ -6772,16 +6825,16 @@ a.btn-slider:hover {
 	margin: 0 20px 0 20px;
 	color: #888;
 	text-decoration: none;
-	color: #888;
+	color: #818891;
 }
 .text-light #filters a {
 	color: rgba(255, 255, 255, .5);
 }
 #filters a:hover {
-	color: #111;
+	color: #fff;
 }
 #filters a.selected {
-	color: #000;
+	color: #ccc;
 }
 .text-light #filters a:hover {
 	color: #fff;
@@ -7641,7 +7694,6 @@ a, img {
 		max-width: 200px;
 		height: auto;
 	}
-   
 }
 
 /* -------------------------------------------------- 
@@ -7672,7 +7724,4 @@ a, img {
 		margin: 0;
 		padding: 0;
 	}
-     h1.big, .h1_big {
-        font-size: 35px;
-    }
 }
